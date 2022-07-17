@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Contato</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            background-color: aliceblue;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 80px;
+        }
+
+        .urls {
+            float: right;
+            line-height: 60px;
+            margin: 0;
+        }
+
+        .urls ul {
+            list-style: none;
+        }
+
+        .urls ul li {
+            display: inline-block;
+        }
+
+        .urls ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: lighter;
+            padding: 0 20px;
+        }
+
+        .Cabeçalho {
+            padding: 30px;
+            position: relative;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-weight: lighter;
+            margin-bottom: 10%;
+        }
+
+        .Cabeçalho span {
+            margin-top: 30%;
+            font-size: 52px;
+            padding: 20px;
+            color: #000;
+        }
+
+        .resumo {
+            padding: 10%;
+            margin-top: 10%;
+            font-size: 16px;
+            color: #000;
+        }
+
+        .resumo title {
+            margin-top: 60%;
+            font-size: 20px;
+            color: #000;
+        }
+
+        .resumo section {
+            margin-bottom: 10px;
+        }
+
+        .resumo section h4 {
+            margin-bottom: 10px;
+        }
+
+        .resumo a {
+            align-items: left;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="A">
+        <div class="navbar">
+            <div class="urls">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Mais artistas</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Cabeçalho">
+        <span class="Título">
+            Sejam todos bem-vindos ao nosso site
+        </span>
+
+        <script>
+            var corFundo = window.document.body
+            corFundo.style.background = "#F5F5F5"
+        </script>
+
+    </div>
+    <div class="resumo">
+        <section>
+            <h4>
+                Motivo da criação do site
+            </h4>
+            <p>
+                A ideia inicial por trás da criação do site foi a divulgação da vida e das obras de Tarsila do Amaral,
+                em que, essa importante artista do período modernista brasileiro não caia no esquecimento do público.
+                Assim, a partir de um grupo de entusiastas e admiradores da Tarsila e suas obras, foi criado esse acervo
+                na digital sobre essa importante e intrigante artista.
+            </p>
+        </section>
+        <section>
+            <p>
+                <b>Aqui estão algumas imagens de Tarcila em diversos momentos de sua vida:</b>
+                <br>
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhYZGRgaGhoaHBwcHBgcGRwcGhwaGhoaGhgcIS4lHB4rIRoYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMBgYGEAYGEDEdFh0xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMf/AABEIAQMAwgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAQIDBQYABwj/xAA4EAABAwIEBAMHAwMEAwAAAAABAAIRAyEEEjFBBVFhcSKBkQYTMqGxwfBC0eEHFfEUI1JyM0Ni/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIss9kjgdBH5yU5kiNFC9k6IOpiPtunPiLnzUUwNN9Vz3X/LoFa4JpGyiYORTiDNzdA8gX3lMO2yXNa6aeQjryQMDduia9gton5xKjrjKBeUEVemNEMfCefJW2Hw4cLjXe6bX4c3d0X5FACyqDNk9jpvKjc1jTl943rIuOyiZVaSQHSJQGPPXfsnNcCOqlp4YPbII5aoPE1WscQTJ58ggMYb/siWu/Pqq3DY9hdAME8+iPZUB0P4UEzHwNE8OUU3vr6Quz21QI590x+bbRK90FNDtUDH8x80mZRufM/JRl0DVBLnPNIovL5BcguMsFMqC8bJS8aH+FG8zvoLIOL01zhHmoyd58kwvA05oEIANt0wGfLnrCZUdcXUUnr+c0Es8yk94f8AKhmZj8JReGoNaMzz2CBcHhHPJEgAb7K3pYGmxuaA4x+r7BB0sS98FjYaJ0hV3Fca5o+OD80BHEePlgLQBvpYLJY3GPeZzG552Q+JeXHU9zdF8JwBqPDQ4fZAzD4RzyA2XEq7w+Bp0SC9+Yn9IBjzKusJQZSYDEBm8aneFnuM4pr3HLPO4j0QGYrjjQ0hjWt5QIVE/FOeSXEnXuhn6nQXUQMICmkRKNo49zIJkiVVNfb0U4quMbx+aINVh8SHtJBT811maXEC0g+Z/OSv8Nig8CIn1QSl6icT6qZx3/OSgnl6IFBPPy+6bnEXSO7eahe+/SEEuZcoY6rkFw4zE66plTnzTHPtyTH1i63L1QOcYgFQPqeqY96iduglJ3UbnHbmmtqajX6+ScwT06nVBJhcOCZOmt/zujKWF948TAaN3Wb/ACg6tYU2TEk6b9gOZ+iDbjXTljM82yj4Wjy1KDQ8VxxyhrCAIiGxCx2OG7pPdXh94BLy1o6NaDHZUnEBexzDr/CCuY+TB0/OS2nBOHtYxr9HO36LMcOw4ztLoAstxiawyNyHQWi6Cm4vjC2Wja3+FmamLzOuYR3EcVJO/wBQqguk6IJi+R1UZlSMHhJ/wkpvEwR9ECMZsUSBztbXRKwDVT1dDpb7oA3NkGPJS4HEuaZGi7KBoeUKEANPnf8AaEGko4kOFk8O6rO4fFFjvqFdUny2RffyQTnRDVI1T/fWQ9R86oEzrk2FyC4e607KJz1HmUdTVBK94KZkUTCiGgH90EYYoajwHC9hclS12+ICSqvihOeCbAIG8Rxxc+WfpaWt6cym0ceWNho8R1cdSpMBgbOqO+Ebc/yyn9neC1MXWgeFk3Pc7IDOEvDxe7ju4egF1Pj+Ekn8Hot5hvYTI9rg8EDpB81cN9m2AybnqB8kHlGG4MRsrahw17fhBIOs/ll6MOEsbslfg2xpZB4txzhrmEuy94WecV7bxbhzXNNp9F55xb2eIJcwT0QZckxlXU6fNE1KDmkAyDyUTpnTfRBOzvopWPkfmyFa7Ta97TClo90DiYMfndQOdzv1T3i2qY5sySga7WyseH1CLHRVROinw9a4mJQXRfr1QztfNSlyTKgXN1XJ2c8x8kiCdz7JnvgVG53VcynJQT0wpS8jsmU2KUg6AT/KAbGYoNubnbuVTPqhzxN/z5qTjDiHPEaWH0lB06DtdOZ5dEGgY/PTDAbudHq5eteyHBGUKbQAJ3MLx/2XYXYhjWlrnSIAO8z9l9BYKkWsAOsICQmOT0jggEqBBYgqwqBAYoBBUYl2qpX0ZJVzimoHJdBT4zg7HjxNHQrO8V9nsrczDMajdbh7YQ+JoyOaDy11Ija6Y0QVp+N8N1cBEbcwstlAMGUDntS5uVikc21kO11zNkHVAZumsKkeOqjcNwgtcO8EDmisqqsM4yj2VEE2TskTfedFyBjGoui1Q0WIhqCQFTUGkkAc1C90BLwzGjNOsIKfi1YNqva8dCOhM2VPjqxNhYfbZaT2j4b78OrUz4mwH9e3ZY/PAg3iQg1H9NHn/X0Gx8T49Gkyvo9fO/8AS5w/uDC1oJax5GusAfcr1/iuOqx4XBnUmPRBqgkcvNBxnFsdDajH9JWx4NxN9Rgztyu+R7ILGsVXYqsOaMxTjErEcb4m4EtCA3H8QY3V4Cr28Zpj9QWH4mHOdL3kDkmYM0/+bj2Qeitx1N+jrpHkc7LFU8ezY+sgo6liHyIPzQXWJw4eCDusJxzhb2HMBLb35Ld4JxdrEqHjWHmm7sUHl7akdDzUVWPKbqYsuWxcfPyQ7RL2t2J+SAVz4mCp2vsJ3Wm4twHDCm5tJ7hVa3NBnxgXIj9uSxmeAgt8M9WTLhZ/D14Kv8O8FoIQS5FybmKVBJQU2dDxCQVZOUICMRV8MBZ1nES15DRIur/iNVtOnYy9wIPZY+o6HR+FBp8NWfkcc8Ws0aX1nms5iWN2J3gbn/6PKVZUHHI+LSLD9lHg8ECx7jGaIHSEGh/pBhS7HF8WZSeT5wAtLimYnE4p7GZg0A5XPacrSBIDQYkkiNxdC/0VZlxNUR/65B8wvX8TgGPcHxDhoQg8Ex+BqOxLKdIvPhGcubBY79QtGl16P7DYmqHGk85wNCbn13WnxXDXPJOYSd4E+Z3U3DOFtpbNnmBf1QEY8eAnovNOMvlx7r0XjFTLTPZeb4oZiUGL441xkwTsABqVI3gD/dZ2N94XsiA6DTfOobvay1lLDibhGnh4I0QZOl7NOZQzvqBlSJIcQR2jmgsFiXscPCcumhg9uS2J4c0bT3upG4NsaBA3A1vJWGIbmYRvCDZRhHsHgPZB5Xj8K5tQ2NjITMDw91SswAauE+t1rKuFz5zv/N1nqVV1GuG7SEFhxrw4phGgD5/6gFYN/wAN+4/ZbL2uxGVz3fqeAxvRsS932WNzc+38oOY+YEXkGVoMMdFU4SjB7q6pwEE0Fck94uQO4mcrZlJwJmaXzcJvGpLeih4RUdlcAQAB5lAvExnzOJIAsANXdZ5dEIzhJdEQbXCOwjGvIlwOtt+yssKKLQ8w6QLT1QU+EwxZ4SSY0PTkQn54lot91ecLqUXeF2usuFv5S4xjJlgBOkxcoLD+kjS3HvDt6To8nNXtK8S9hsQKfEKM2zZ6Z5eJtvmAvbUHQlK5IgpfaOpDIWGeRJWx9qK4Ai2ixbqgKCWkRKOY6IVKaga7oVaUK0hAQ8BRvATnlROKBrDsiz8BQTWoms+GGeV0GWx3vA0NpxmLpcSYgdkO/hrPeMqPfmdbw2if2SYPiTH53ZhOYx2VL7RcbEZafxaZuQ0sgqvaHF+8rOcDLW+EeRufMqnBTnvGwj790xgQHYaruVaU32VAHkG10fh8TeCgts/VKoMi5AmP4iCCAFUtxRbMWELQswbWCXAyd9kPjcDTInTqgpqOIbIgEHnKveHUIaXlwdJAg302I1KzmIwhZcG3zSUsW5tpPO3NB6A3BNe1zw8ZtLQAOgm6tuH8EaaQ/wBy51AufVec4TGm4kybzqOoK0nDuK5WtyjpsgssTwd1Iiqx/iY4OaOZBm5XtPC8aK1JlVuj2h3YnUeRleNYjGtjM47XAM+S1P8AT72lZP8ApyYaSSydnG5HY6oPRlG5jtiIvIP2Kklcg879qzVa8l+m0b8liaz673y14Y3lEk+a9a9ouHuqvYAJG6xvG+HtZUc0R5IKMZnFs6D5q3wxhDUmRdEscgKNXqmOeocwTmoCGPVf7WcQ91hnu0JGUdzYItnzWH/qHxGTTojbxOHewH1QYplQiwJUjX80xgOllGXIJXEDumsJnomNUkwgV+shT4dwJHdCTbzU1CZlBae9K5PgrkCMxdd1hJEp+JoHKJzBxmR9IRXC3yMrmyj3uaGkfg/ZBk6j3MJBv3UIcHG/NG8RhxNtEDTYZMbID2YdzBma4HoR91Z4Dj2QC1z8QgWPMKmpVyNT5WRv+oZqG7aQIlBff394s4S0jYC3oicJxIOyuaxrXA2IF55yBKyj6ebxAkdE+lVqM/XbpyQe48E9rgWZapAeNDeHIf2j9rMUGEYaiMztHuLcg6jmV5LQ4rU1a821zAfIbrQcP9q5Z7qqzOw9IjqDqCgF/vnFcM5z6rqj2vB3zNEizmkaQsmMfiM5eX1MxvJLt+61XF8O8NPuK5cw/oebjsRqqY8PxLwG2gW+KUBmD9rKrBFRmcf8h8XmN1o+HcSFVoc0EA8wqXh/s6wAF5Ljy0atDQptaAAIHJAYFzXX1Q7jCex0IJcXiGsY57jAaCT5LybiGLdVe+o7V5nsNgtF7acYn/Zabau68gsmHoGErimlOaECNTgEwlISgkPJF4MCRKBa5Tsfogvrc1yqfeHmuQXWJqOY6bieSGfxInt2CtAxrx4wDvqgcTggM2UWNx09UFdWqNdMXtuupVA0abJmJwDmmwiduZ6IZsiQTfl+aIHy1x0gzrspXtdpMSE2kGnWf3RlClm8Oo7j5IB6ILTcxO+ytW1BkgNB5/xKEqUoBOre1wn4ZoAsew2PTogke1kWa4Ht91EwB1jblcpauK5tc3p+yX3ocPF6jXzQS4Cs6m4B0lhMdFt8BTpvAhefVqUgZdr2sjOHcSewgcrRug3b6IabKMqow/GMwuosRxxjNXCdgLlBdOeOarsbj4aYOypH8WdUPIclHia3hhBmcdVzPcTuUPKfW+I91GgkCakBSFBxK6Fy5BwUzVEFK1BLC5LkXILijjgLNP0U+JqyySRPNUfu7paj3NtqgtmOzgQJc0a3HooadBjiREF2+/VB0sU5uhIFlI7GeIQNPVA/G8PyyWPzgG4gyEmC7x+fJEUsWQd4PLUqLE4UnxsnmY+6AgsEFuaH8tAfNCCrlcARHPkU2niQXQ+XbXN1BVcGuIFwbidQgLrPzCdQNtx1HRQUn8gZEqNlQi421/wiKDZ8Q8wgNwNF7h4B3BVh/apGY27c0RwrFMAGnVGVsexrXDzBCCoxuGgQbjmCR/hU1XBtmW26G/zR2Ix5JN7bcig8RfxQR2/LoBXOeza3MXSe9ed5RNOoRyI5j9kYymx0EgeWqCgqMuo/dlah/DmOb4GkHffyCrauCLTDgR3QU5CRH1qMfwg3hAxOJSJCg5T0Qo26I2izwoH+66j1XJuVcgSrRcNBKaHOGo9UY2jbNOiIZTzCcptfqgqNQmb7yrh+CBaHAwN0JVYM2gjbZAxuJtAdBCOwzzFnwTr1QTMLYkgKLO5plBZY/DNgPbruEEC14g6hTMxpdAPySVabTcG+6AV7CETRqx90K+qDYhRteRZAecSWukGJUzsUT22+4VZUfsn0ql42QF1YLLai/luh2VjaDbrokrPMW2PyKTDNBuPRBIapm0T6SiKQfMjzCF91PTopaLnD4Tf8sgvsLWdEH6i6XH0xG09XShcLiQ4Q4X3RVQHLBgt2sJ9UFRVp2VRiKcHVXbhcjToqzG0YugAIXJYXAIJaTbIzDNA3ULBsntbEoC8vZch7pEFkzDgQdQLEcyicRiIEEQDy7JlCo07wNu6GrM8RvBn5IFgugz4B+nmh8S8khsQNk7DVM2Zh6xCbiW2ncCPNBzm302SU3AiIUILmgGfJLh3OElwsgkexuosV3bzSvZmu0z0TSxw2hAyuwQg3hWTYdqhK7IMbIIHOXMddcU1mqAqLGFLhWacr/JQNfARGEflj81QFe7EdQhWnK8InMCSeqBxdnILYMObM2x+vQqwDswtpF42PZV+Dq52Ro4bqywHxSdfqgqMSHB0HyKGxlMloI6yrPjHxKtr1IEIKopaaV8SmNcgMaN+SeXodrpCnbAQLIXJmY8lyA2m/Jci+ydOcxqSLot+FN83xG/8AACCr0HsEjdAuBcwPyuG6Nx1FpflZvy27qjo0yHgu5rQMrta+3xag80ARwZYS1+msi/ayr/ekk3j6QtLiK7XAuyzGo+qo8YwE5qdukIBdBIJnl/Klw2KO9x1QwqbFOYG7/JAY4A6KDEskJmeDvCLZcIKxo2SOaiMTRgyLqPMCECApxf4Y5JpCb2QTYetslxLpQzQnCogLwVYggzZaHCPmL9Qd1lKL4srnBVSLSUB/EqGaCNdFQY1pA66LTOu0HY/VUnE6eYnmgpCUrQpaLLwVJicM5m1jugjYU4v2TXaJjJQSZ1y7IuQbTHUiHmdADfmq/HNa5wZMEgHtC9C4zwUvc4hsG8W2WMPBHB4eRM/kIK2vw4EEjYWVYysQ8dCrau403nLJBGnIoXF0M7Q9rfFugIrVAXZh+ofNA4dmVxJHkhqz3SNkZhnyL3QRV+Gh12lBuwr2nmFcMqDR3qly2ixCCmzHl5KWi/kV2Jo5TLZUdOoNCPNAQ4A2NkC8QUdTE7qDFMgxz32QRApIXNZunVBIQMqMgyFDPREsuD+H0TXU5QRFH4CpeCbjRBNZ6JHGDIQasYjwKuxLeV5+SHweLkEFFZ2kIAKgGu6ssAW1W+7drsq7EBRYKsWPBHNAzH4Y03ljtvoo6YjqtdxrhwrUhUaPG0XhZKiEC51ybC5B9OVWCSY/LrNcUpNgWG65cgwHFGC1tyqrBvPvIm0FcuQC4xgnRB4ffuuXICDqEVSXLkEWJYOSp61kq5AQ3bsEuIuxcuQQ0dE/ZcuQRO1Cc7ZKuQMZ+6hKVcg7D6qZryHapFyCdya5gkGFy5Bt+A/+M9Wn6LFY1gFR4A/UVy5AIuXLkH//2Q=="
+                    alt="" width="15%">
+            </p>
+        </section>
+        <section>
+            <p>
+                <img src="http://tarsiladoamaral.com.br/base2022/wp-content/uploads/2017/11/tarsilaoficial_01.jpg"
+                    alt="" width="15%">
+                <br>
+                Tarsila nos anos 20
+            </p>
+        </section>
+        <section>
+            <p>
+                <img src="https://tarsiladoamaral.com.br/base2022/wp-content/uploads/2017/11/tarsilaoficial_04.jpg"
+                    alt="" width="15%">
+                <br>
+                A artista em mostra de 1926
+            </p>
+        </section>
+        <section>
+            <p>
+                <img src="https://i.pinimg.com/originals/e5/e3/f6/e5e3f6e5e526fa67341d9bb4263b94aa.png" alt=""
+                    width="15%">
+                <br>
+                Tarsila e Oswald de Andrade em 1923
+            </p>
+        </section>
+        <section>
+            <p>
+                <b>Aqui segue alguns links para saber mais sobre a Tarsila</b>
+                <br>
+                <a href="https://tarsiladoamaral.com.br/">Link do site oficial da Tarcila</a>
+                <br>
+                <a href="https://pt.wikipedia.org/wiki/Tarsila_do_Amaral">Link do seu perfil na Wikipedia</a>
+            </p>
+        </section>
+    </div>
+
+    <script>
+        var corFundo = window.document.body
+        corFundo.style.background = "#F5F5F5"
+    </script>
+
+    <!---->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

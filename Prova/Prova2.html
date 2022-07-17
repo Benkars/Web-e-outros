@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+
+    <style>
+        /*----reset----*/
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        /*----Variáveis----*/
+
+        :root {
+            --Times-new-roman: 'Times New Roman', Times, serif;
+            --corprincipal: rgb(190, 183, 176);
+            --cordefuno: #DCDCDC;
+        }
+
+        /*----Layout----*/
+
+        /*----body----*/
+
+        body {
+            font-family: var(--Times-new-roman);
+            font-size: 18px;
+            background-color: var(--cordefuno);
+        }
+
+        /*----header----*/
+
+        header {
+            padding: 50px;
+            text-align: left;
+            background-color: #333;
+            color: white;
+            width: 100%;
+        }
+
+        /*----section----*/
+
+        section {
+            padding: 10px;
+            background-color: var(--corprincipal);
+            border-radius: 10px;
+        }
+
+        /*----h2----*/
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        /*----h3----*/
+
+        h3 {
+            margin-bottom: 5px;
+        }
+
+        /*----p----*/
+
+        p {
+            padding: 5px;
+        }
+
+        /*----img----*/
+
+        img {
+            border-radius: 10px;
+            width: auto;
+            height: auto;
+            max-width: 70%;
+            max-height: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /*----footer----*/
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        /*----container----*/
+
+        button{
+            background-color: var(--corprincipal);
+            border: 0px;
+        }
+
+        /*----a----*/
+
+        a {
+            color: rgb(54, 83, 157);
+            font-family: var(--Times-new-roman);
+            font-size: 18px;
+        }
+
+        /*----container----*/
+
+        .container {
+            min-width: 100vh;
+            margin: auto;
+            display: grid;
+            padding: 50px;
+            line-height: 1.5;
+            max-width: 60%;
+            gap: 20px;
+            grid-template-areas:
+                'contfoto cont1'
+                'cont2 cont4'
+                'cont2 cont3'
+                'cont5 cont8'
+                'cont6 cont6'
+                'cont9 cont9';
+            grid-template-columns: 1fr 1fr;
+            vertical-align: top;
+        }
+
+        .w {
+            grid-area: contfoto;
+            display: grid;
+            max-height: 450px;
+        }
+
+        .a {
+            grid-area: cont1;
+        }
+
+        .b {
+            grid-area: cont2;
+        }
+
+        .c {
+            grid-area: cont3;
+        }
+
+        .d {
+            grid-area: cont4;
+        }
+
+        .e {
+            grid-area: cont5;
+        }
+
+        .f {
+            grid-area: cont6;
+        }
+
+        .m {
+            grid-area: cont9;
+        }
+        .h {
+            grid-area: cont8;
+        }
+        
+
+        @media (max-width: 850px) {
+            .container {
+                padding: 10px;
+                border-radius: 5px;
+                display: grid;
+                grid-template-columns: 1fr;
+                max-width: 100%;
+                grid-template-areas:
+                    'contfoto'
+                    'cont1'
+                    'cont2'
+                    'cont3'
+                    'cont4'
+                    'cont5'
+                    'cont8'
+                    'cont6'
+                    'cont9';
+            }
+
+            .container img {
+                max-width: 50%;
+                max-height: 50%;
+                width: auto;
+                height: auto;
+                border-radius: 15px;
+                margin-top: 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            <i>
+                John Marston
+            </i>
+        </h1>
+        <h6>
+            Web designer & Front-end Expert
+        </h6>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box w">
+                <img src="https://i.pinimg.com/564x/4e/45/88/4e458893b1fdc033508016e09fa5553c.jpg"
+                    alt="Foto de um executivo para exemplificar">
+            </div>
+            <div class="box a">
+                <section>
+                    <h2>
+                        Sobre mim
+                    </h2>
+                    <p>
+                        Nascido e criado em Portland, no estado do Oregon, sempre me interessei por computadores e
+                        tecnologia em
+                        geral desde a infância, algo que contribuiu para a minha escolha de cursar ciência da computação
+                        logo
+                        após o
+                        término do ensino médio. Assim, durante a faculdade ingressei no mercado de trabalho através de
+                        diversos
+                        estágios em empresas como a Amazon, Dell e Netflix, ganhando grande experiência no período, algo
+                        que
+                        colaborou para também meu desenvolvimento pessoal nas áreas de trabalho em equipe, pensamento
+                        lógico
+                        e
+                        resolução de problemas. Agora busco novos ares e novas experiências em que consiga aplicar meus
+                        conhecimentos e habilidades, a fim de contribuir para outras empresas.
+                    </p>
+                </section>
+            </div>
+            <div class="box b">
+                <section>
+                    <h3>
+                        Experiência profissional
+                    </h3>
+                    <ul>
+                        <li>
+                            <b>
+                                2010 - 2011
+                            </b>
+                        </li>
+                        <li>
+                            Estágio no setor de TI da Amazon.
+                        </li>
+                        <li>
+                            <b>
+                                2011 - 2012
+                            </b>
+                        </li>
+                        <li>
+                            Estágio na Dell no setor de web designer.
+                        </li>
+                        <li>
+                            <b>
+                                2012 – 2013
+                            </b>
+                        </li>
+                        <li>
+                            Estágio na Netflix no setor de web designer.
+                        </li>
+                        <li>
+                            <b>
+                                2014 – 2016
+                            </b>
+                        </li>
+                        <li>
+                            Trabalho na Apple como Front-end developer.
+                        </li>
+                        <li>
+                            <b>
+                                2017 – 2021
+                            </b>
+                        </li>
+                        <li>
+                            Trabalho na Microsoft como Front-end developer.
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="box c">
+                <section>
+                    <h3>
+                        Habilidades
+                    </h3>
+                    <p>
+                        Grande facilidade no raciocínio lógico para a solução de problemas.
+                    </p>
+                    <p>
+                        Facilidade para trabalhar em grupo.
+                    </p>
+                    <p>
+                        HTML, CSS e JavaScript avançados.
+                    </p>
+                </section>
+            </div>
+            <div class="box d">
+                <section>
+                    <h3>
+                        Formação
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>
+                            <b>2007 - 2009</b> <br>
+                            Benson Polytechnic High School
+
+                        </li>
+                        <li>
+                            <b>2010 - 2013</b>
+                            <br>
+                            Portland State University
+                        </li>
+                    </ul>
+                    </p>
+                </section>
+            </div>
+            <div class="box e">
+                <section>
+                    <h3>
+                        Informações adicionais
+                    </h3>
+                    <p>
+                        Possuo diversos hobbies, entre eles está estudar e jogar xadrez e outros jogos estilo FPS, ler
+                        livros,
+                        programar, além de ser um aficionado em história.
+                    </p>
+                </section>
+            </div>
+            <div class="box f">
+                <section>
+                    <h3>
+                        Dados para contato
+                    </h3>
+                    <p>
+                        Telefone: 273-555-0136
+                        <br>
+                        Endereço: 7611 Goma Street, Vespucci Beach
+                        <br>
+                        Email: johnmarston@gmail.com
+                        <br>
+                    </p>
+                </section>
+            </div>
+            <div class="box h">
+                <section>
+                    <h3>
+                        Redes Sociais
+                    </h3>
+                    <button onmouseover="mouse()" onmouseout="mouse2()">
+                        <a href="https://github.com/" id="mouse1" target="_blank">Saiba mais sobre meus mim e projetos</a>
+                    </button>
+                    <br>
+                    <button onmouseover="mouse3()" onmouseout="mouse5()">
+                        <a href="https://www.instagram.com/" id="mouse4" target="_blank">Meu Instagram</a>
+                    </button>
+                    <br>
+                    <button onmouseover="mouse6()" onmouseout="mouse8()">
+                        <a href="https://twitter.com/github" id="mouse7" target="_blank">Meu Twitter</a>
+                    </button>
+                </section>
+            </div>
+    </main>
+    <div class="box m">
+        <footer>
+            <p>
+                <b>
+                    Todos os Direitos reservados 2021
+                </b>
+            </p>
+        </footer>
+    </div>
+    </div>
+
+    <script> 
+        alert("Boas vindas! Aqui é o meu currículo para qualquer um que esteja interessado :)");
+
+    function mouse () {
+            document.getElementById("mouse1").innerHTML = "Esse link irá te levar ao github";
+        }
+        function mouse2 () {
+            document.getElementById("mouse1").innerHTML = "Saiba mais sobre mim e meus projetos";
+        }
+
+        function mouse3 () {
+            document.getElementById("mouse4").innerHTML = "Esse link irá te levar ao meu Instagram";
+        }
+        function mouse5 () {
+            document.getElementById("mouse4").innerHTML = "Me conheça melhor";
+        }
+
+        function mouse6 () {
+            document.getElementById("mouse7").innerHTML = "Esse link irá te levar ao Twitter";
+        }
+        function mouse8 () {
+            document.getElementById("mouse7").innerHTML = "Saiba mais sobre minhas ideias e opiniões";
+        }
+    </script>
+
+</body>
+
+</html>
