@@ -13,7 +13,7 @@ public class EX09C5 {
 
         media = ((n1 * 2) + (n2 * 3) + (n3 * 5)) / 10.0;
 
-        System.out.println(media);
+        System.out.println(media + "\n");
 
         teclado.close();
     }
